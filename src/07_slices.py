@@ -13,9 +13,11 @@ a = [2, 4, 1, 7, 9, 6]
 
 # Output the second element: 4:
 print(a[1])
+# print(a[-5])
 
 # Output the second-to-last element: 9
 print(a[-2])
+# print(a[4])
 
 # Output the last three elements in the array: [7, 9, 6]
 print(a[-3:])
@@ -24,6 +26,8 @@ print(a[-3:])
 middleIndex = ((len(a))/2) + 1
 middleIndexToLeft = middleIndex - 2
 print(a[(int(middleIndexToLeft)):(int(middleIndex))])
+
+# print(a[2:4])
 
 # Output every element except the first one: [4, 1, 7, 9, 6]
 print(a[1:])
