@@ -36,3 +36,4 @@ print(len(x))
 
 for i in x:
     print(i*1000)
+    
